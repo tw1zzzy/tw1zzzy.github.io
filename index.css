@@ -1,0 +1,145 @@
+@font-face {
+	font-family: 'Deutsch Gothic';
+	src: url('fonts/deutsch_gothic.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/deutsch_gothic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/deutsch_gothic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/deutsch_gothic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/deutsch_gothic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/deutsch_gothic.svg#deutsch_gothic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.doto-<uniquifier> {
+  font-family: "Lato", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+
+.doto-<uniquifier> {
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
+  }
+.all
+{
+}
+.smalltxt
+{
+    color: #000000;
+    font-family: 'Doto';
+    font-size: x-large;
+    font-weight: 900;
+}
+.tablet 
+{
+    text-align: center;
+    background-color: #fffff1;
+    font-family: 'Deutsch Gothic';
+    min-height: 100%;
+    min-width: 35%;
+    margin-left: 200px;
+    MARGIN-RIGHT: 200px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 2px;
+}
+.bgvideo
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+#myVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    transform: translateX(-50%) translateY(-50%);
+}
+.heading
+{
+    font-size: 40;
+}
+.cards
+{
+    display: flex;
+    box-align: justify;
+}
+.cards2
+{
+    display: flex;
+    box-align: justify;
+}
+.card
+{
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    height: 500px;
+    background-color: #000000;
+    flex: 1;
+    transition: 0.5s all ease-in-out;
+}
+
+.card:hover
+{
+    flex: 1.2;
+.txt1
+{
+    margin-top: 0%;
+    margin-left: 25%;
+    font-size: 18;
+    writing-mode: vertical-lr;
+    transform: rotate(-90deg);
+}
+.txt2
+{
+    visibility: visible;
+    font-size: 18;
+    width: 90%;
+    margin-left: 5%;
+}
+}
+
+.txt1
+{
+    color: #ffffff;
+    writing-mode: vertical-lr;
+    font-family: 'Lato';
+    margin-top: 50%;
+    margin-left: 46%;
+    font-size: 30;
+    transition: 1s all ease;
+}
+.txt2
+{
+    visibility: hidden;
+    color: #ffffff;
+    width: 400%;
+    margin-left: 100%;
+    writing-mode: horizontal-tb;
+    font-family: 'Lato';
+    font-size: 30;
+    text-align: left;
+    transition: 0.000000000001s visibility, 1s font-size, 3s width, 5s margin-left, ease;
+}
